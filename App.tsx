@@ -3,7 +3,9 @@ import React from 'react'
 //import { First } from './src/components/First'
 //import OnPress from './src/components/OnPress'
 import { View } from 'react-native'
-import UseStateHook from './src/components/UseStateHook'
+//import UseStateHook from './src/components/UseStateHook'
+//import Props from './src/components/Props'
+import InputText from './src/components/InputText'
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
 
       {/* <OnPress/> */}
 
-      <UseStateHook/>
+      {/* <UseStateHook/> */}
+      {/* <Props/> */}
+      <InputText/>
     </View>
   )
 }
